@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0434f82b-5cf3-41f3-a177-fbfc22b114a2" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VZbpE5O2HSgRX5ut4w0bvioLNp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/PycharmProjects/ClinicOffical/ClinicManagerApp/templates/includes/doctor&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\PycharmProjects\ClinicOffical\ClinicManagerApp\templates\includes\doctor" />
+      <recent name="C:\Users\DELL\PycharmProjects\ClinicOffical\ClinicManagerApp\controller\client" />
+      <recent name="C:\Users\DELL\PycharmProjects\ClinicOffical\ClinicManagerApp\view\nurse" />
+      <recent name="C:\Users\DELL\PycharmProjects\ClinicOffical" />
+      <recent name="C:\Users\DELL\PycharmProjects\ClinicOffical\ClinicManagerApp\view\admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\PycharmProjects\ClinicOffical\ClinicManagerApp\controller\nurse" />
+      <recent name="C:\Users\DELL\PycharmProjects\ClinicOffical\ClinicManagerApp\static\js\plugin" />
+      <recent name="C:\Users\DELL\PycharmProjects\ClinicOffical\ClinicManagerApp\asset\images" />
+      <recent name="C:\Users\DELL\PycharmProjects\ClinicOffical\ClinicManagerApp\asset" />
+      <recent name="C:\Users\DELL\PycharmProjects\ClinicOffical\ClinicManagerApp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ClinicOffical" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ClinicOffical" type="Python.FlaskServer">
+      <module name="ClinicOffical" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0434f82b-5cf3-41f3-a177-fbfc22b114a2" name="Changes" comment="" />
+      <created>1695046730363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695046730363</updated>
+      <workItem from="1695046747441" duration="5783000" />
+      <workItem from="1695136877934" duration="37000" />
+      <workItem from="1695387398273" duration="10000" />
+      <workItem from="1695387452708" duration="1374000" />
+      <workItem from="1695388920482" duration="3794000" />
+      <workItem from="1695392779833" duration="5333000" />
+      <workItem from="1695401464395" duration="25000" />
+      <workItem from="1695405208519" duration="333000" />
+      <workItem from="1695449577124" duration="35000" />
+      <workItem from="1695657717420" duration="1664000" />
+      <workItem from="1695659398833" duration="3657000" />
+      <workItem from="1695663106543" duration="895000" />
+      <workItem from="1695724508497" duration="956000" />
+      <workItem from="1695810855393" duration="2575000" />
+      <workItem from="1695833047976" duration="1344000" />
+      <workItem from="1695891785243" duration="2370000" />
+      <workItem from="1695904763809" duration="330000" />
+      <workItem from="1695905613645" duration="330000" />
+      <workItem from="1695906181210" duration="1170000" />
+      <workItem from="1695961055087" duration="303000" />
+      <workItem from="1696054418395" duration="499000" />
+      <workItem from="1696058850070" duration="4267000" />
+      <workItem from="1696352198986" duration="4736000" />
+      <workItem from="1696382641852" duration="599000" />
+      <workItem from="1696410630946" duration="4652000" />
+      <workItem from="1696431206689" duration="8926000" />
+      <workItem from="1696477556004" duration="1741000" />
+      <workItem from="1696501710690" duration="236000" />
+      <workItem from="1696525367847" duration="631000" />
+      <workItem from="1696560370197" duration="613000" />
+      <workItem from="1696567267105" duration="613000" />
+      <workItem from="1696596288486" duration="1228000" />
+      <workItem from="1696605302465" duration="4614000" />
+      <workItem from="1696659273998" duration="1221000" />
+      <workItem from="1696674591409" duration="651000" />
+      <workItem from="1696771036699" duration="12709000" />
+      <workItem from="1696831741775" duration="5551000" />
+      <workItem from="1696865494601" duration="8974000" />
+      <workItem from="1696928233810" duration="5163000" />
+      <workItem from="1696943178455" duration="6275000" />
+      <workItem from="1696950941910" duration="810000" />
+      <workItem from="1696951781404" duration="862000" />
+      <workItem from="1696952668348" duration="5761000" />
+      <workItem from="1697013579931" duration="2286000" />
+      <workItem from="1697015954714" duration="3898000" />
+      <workItem from="1697035067666" duration="10577000" />
+      <workItem from="1697094898892" duration="4500000" />
+      <workItem from="1697264341173" duration="1151000" />
+      <workItem from="1697272271229" duration="567000" />
+      <workItem from="1697362919259" duration="619000" />
+      <workItem from="1697456843563" duration="1155000" />
+      <workItem from="1697459623966" duration="1771000" />
+      <workItem from="1697461563652" duration="19000" />
+      <workItem from="1697465099704" duration="2005000" />
+      <workItem from="1697471985476" duration="127000" />
+      <workItem from="1697474694205" duration="234000" />
+      <workItem from="1697803770418" duration="1072000" />
+      <workItem from="1697807521096" duration="592000" />
+      <workItem from="1697817500544" duration="128000" />
+      <workItem from="1697977521280" duration="4682000" />
+      <workItem from="1698146087855" duration="994000" />
+      <workItem from="1698151655560" duration="28000" />
+      <workItem from="1698203680156" duration="2266000" />
+      <workItem from="1698226117717" duration="188000" />
+      <workItem from="1698226915493" duration="3013000" />
+      <workItem from="1698306291878" duration="598000" />
+      <workItem from="1698502004394" duration="1589000" />
+      <workItem from="1698646170299" duration="4718000" />
+      <workItem from="1698654361502" duration="601000" />
+      <workItem from="1698661352714" duration="2743000" />
+      <workItem from="1698670868673" duration="1161000" />
+      <workItem from="1698682812913" duration="26000" />
+      <workItem from="1698734544928" duration="616000" />
+      <workItem from="1698745717242" duration="4720000" />
+      <workItem from="1698937999506" duration="851000" />
+      <workItem from="1699002083087" duration="754000" />
+      <workItem from="1699004319096" duration="1899000" />
+      <workItem from="1699011661671" duration="66000" />
+      <workItem from="1699019013535" duration="1609000" />
+      <workItem from="1699026682089" duration="20000" />
+      <workItem from="1699026863015" duration="325000" />
+      <workItem from="1699632907719" duration="849000" />
+      <workItem from="1699661593578" duration="14000" />
+      <workItem from="1699663033694" duration="762000" />
+      <workItem from="1699672751554" duration="18000" />
+      <workItem from="1699673877489" duration="925000" />
+      <workItem from="1699674900574" duration="742000" />
+      <workItem from="1699675673168" duration="419000" />
+      <workItem from="1699682259251" duration="13000" />
+      <workItem from="1699688192253" duration="491000" />
+      <workItem from="1699779984665" duration="1198000" />
+      <workItem from="1699786955843" duration="1331000" />
+      <workItem from="1699850418829" duration="1400000" />
+      <workItem from="1699852519439" duration="1090000" />
+      <workItem from="1699857014422" duration="3302000" />
+      <workItem from="1699869191529" duration="292000" />
+      <workItem from="1699873023195" duration="7639000" />
+      <workItem from="1700189992597" duration="1245000" />
+      <workItem from="1700194826547" duration="313000" />
+      <workItem from="1700227316552" duration="6024000" />
+      <workItem from="1700312086968" duration="4358000" />
+      <workItem from="1700751793960" duration="761000" />
+      <workItem from="1700752892015" duration="496000" />
+      <workItem from="1700754290777" duration="2809000" />
+      <workItem from="1700757579149" duration="69000" />
+      <workItem from="1700758479822" duration="638000" />
+      <workItem from="1700759133725" duration="10000" />
+      <workItem from="1701436054469" duration="744000" />
+      <workItem from="1701927793159" duration="1310000" />
+      <workItem from="1701930700963" duration="3579000" />
+      <workItem from="1702024528369" duration="932000" />
+      <workItem from="1702459547048" duration="638000" />
+      <workItem from="1702957552081" duration="115000" />
+      <workItem from="1704703099507" duration="483000" />
+      <workItem from="1705747325686" duration="1372000" />
+      <workItem from="1705893553079" duration="294000" />
+      <workItem from="1705977312671" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/base_view.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/nurse/ofline_registration_view.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/nurse/ofline_registration_view.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/admin/feedback/feedback_view.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/admin/feedback/feedback_view.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/admin/feedback/feedback_view.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/admin/feedback/feedback_view.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/admin/feedback/feedback_view.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/admin/feedback/feedback_view.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/admin/feedback/feedback_view.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/admin/feedback/feedback_view.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/admin/feedback/feedback_view.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/admin/feedback/feedback_view.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/admin/feedback/feedback_view.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/admin/feedback/feedback_view.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/admin/feedback/feedback_view.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/admin/feedback/feedback_view.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/client/client_controller.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/admin/feedback_controller.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="334" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/client/client_view.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/controller/nurse/offline_registration_controller.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClinicManagerApp/view/nurse/ofline_registration_view.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ClinicOffical$app.coverage" NAME="app Coverage Results" MODIFIED="1705893590562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ClinicOffical$ClinicOffical.coverage" NAME="ClinicOffical Coverage Results" MODIFIED="1696059073122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

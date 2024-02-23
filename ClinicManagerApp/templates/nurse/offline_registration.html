@@ -1,0 +1,39 @@
+{% extends 'admin/master.html'%}
+
+
+{% block head%}
+{{super()}}
+<script src="{{url_for('static', filename='js/nurse/offline_registration.js')}}"></script>
+{% endblock%}
+
+{% block body %}
+{{super()}}
+<div class="content">
+    <div class="page-inner">
+        <h4 class="page-title">Đăng ký trực tiếp</h4>
+        <div class="row">
+            {% include 'includes/nurse/amount_registration_daily.html' %}
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                {% if amount >0 %}
+                {% include 'includes/nurse/add_customer_result_modal.html' %}
+                {% include 'includes/nurse/input_customer_infor.html' %}
+                {% endif %}
+            </div>
+            <div class="col-12 col-lg-6">
+                {% include 'includes/nurse/customer_list_daily.html' %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% block script %}
+<!-- DateTimePicker -->
+<script src="https://appsrv1-147a1.kxcdn.com/atlantis-pro/js/plugin/datepicker/bootstrap-datetimepicker.min.js">
+</script>
+<!-- jQuery Validation -->
+<script src="https://appsrv1-147a1.kxcdn.com/atlantis-pro/js/plugin/jquery.validate/jquery.validate.min.js">
+</script>
+{% endblock %}
+{% endblock %}
